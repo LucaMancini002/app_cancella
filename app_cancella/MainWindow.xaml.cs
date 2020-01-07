@@ -47,6 +47,7 @@ namespace app_cancella
                 Dispatcher.Invoke(() => UpdateUI(i, lbl));
                 Thread.Sleep(delay);
 
+
                 if (stop)
                     break;
             }
