@@ -1,0 +1,33 @@
+﻿<Window x:Class="app_cancella.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:app_cancella"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFFF6F0B" Offset="0"/>
+                <GradientStop Color="#FF0FF704" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button x:Name="btn_start1" Content="Start" HorizontalAlignment="Left" Margin="92,81,0,0" VerticalAlignment="Top" Width="75" Click="Btn_start1_Click"/>
+        <Button x:Name="btn_start2" Content="Start" HorizontalAlignment="Left" Margin="310,81,0,0" VerticalAlignment="Top" Width="75" Click="Btn_start2_Click"/>
+        <Button x:Name="btn_start3" Content="Start" HorizontalAlignment="Left" Margin="499,81,0,0" VerticalAlignment="Top" Width="75" Click="Btn_start3_Click"/>
+        <Label x:Name="lbl_count1" Content="0" HorizontalAlignment="Left" Margin="92,121,0,0" VerticalAlignment="Top" Width="75" Background="#FFF32D2D"/>
+        <Label x:Name="lbl_count2" Content="0" HorizontalAlignment="Left" Margin="310,121,0,0" VerticalAlignment="Top" Width="75" Background="#FFF32D2D"/>
+        <Label x:Name="lbl_count3" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="499,121,0,0" Width="75" Background="#FFF32D2D"/>
+        <TextBox x:Name="txt_max1" HorizontalAlignment="Left" Height="23" Margin="92,236,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Background="#FFF1BE0E"/>
+        <TextBox x:Name="txt_max2" HorizontalAlignment="Left" Height="23" Margin="310,236,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Background="#FFF1BE0E"/>
+        <TextBox x:Name="txt_delay" HorizontalAlignment="Left" Height="23" Margin="499,236,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Background="#FFF1BE0E"/>
+        <Label Content="max" HorizontalAlignment="Left" Margin="55,233,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.219,0.615"/>
+        <Label Content="delay" HorizontalAlignment="Left" Margin="443,233,0,0" VerticalAlignment="Top"/>
+        <Label Content="max" HorizontalAlignment="Left" Margin="260,233,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btn_stop1" Content="Button" HorizontalAlignment="Left" Margin="92,323,0,0" VerticalAlignment="Top" Width="75" Click="Btn_stop_Click"/>
+        <Button x:Name="btm_stop2" Content="Button" HorizontalAlignment="Left" Margin="310,323,0,0" VerticalAlignment="Top" Width="75" Click="Btn_stop_Click"/>
+        <Button x:Name="btn_stop3" Content="Button" HorizontalAlignment="Left" Margin="499,323,0,0" VerticalAlignment="Top" Width="75" Click="Btn_stop_Click"/>
+
+    </Grid>
+</Window>
